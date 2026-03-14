@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Mood Music App</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>🎧 Mood Music Recommender</h1>
+
+<button onclick="scanThumb()">Scan Thumb 👍</button>
+
+<div id="scanResult"></div>
+
+<div id="app" style="display:none;">
+
+<input type="text" id="moodInput" placeholder="How are you feeling today?">
+
+<button onclick="detectMood()">Detect Mood</button>
+
+<h2 id="mood"></h2>
+
+<div id="music"></div>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
